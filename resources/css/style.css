@@ -5,16 +5,22 @@
 }
 
 html {
-    background-color: #000; /*Define a cor do fundo*/
+    background-color: #1a1818; /*Define a cor do fundo*/
     color: #D5C06B;
     font-family: 'Lato', 'Arial', sans-serif; /*a terceira op��o � qualquer fonte daquela fam�lia, note que o nome da fam�lia n�o esta entre aspas.*/
     font-weight: 300; /*de acordo com a fonte que importamos*/
     font-size: 20px;
     text-rendering: optimizeLegibility; /*otimiza a renderiza��o da fonte para letura, tendo uma melhor qualidade*/
 }
+nav {
+    display: flex;
+    justify-content: space-between;
+}
 
 .logo{
     margin: 1rem;
+    font-family: 'Viaoda Libre';
+    font-weight: 100; 
 }
 /* ----------------------------------------------- */
 /* menu hamburguer */
