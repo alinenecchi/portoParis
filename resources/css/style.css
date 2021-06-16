@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #000; /*Define a cor do fundo*/
+    color: #D5C06B;
+    font-family: 'Lato', 'Arial', sans-serif; /*a terceira op��o � qualquer fonte daquela fam�lia, note que o nome da fam�lia n�o esta entre aspas.*/
+    font-weight: 300; /*de acordo com a fonte que importamos*/
+    font-size: 20px;
+    text-rendering: optimizeLegibility; /*otimiza a renderiza��o da fonte para letura, tendo uma melhor qualidade*/
+}
+
+.logo{
+    margin: 1rem;
+}
+/* ----------------------------------------------- */
+/* menu hamburguer */
+/* ----------------------------------------------- */
+#checkbox-menu{
+    position: absolute;
+    float: right;
+    display: none;
+    opacity: 30px;
+  }
+  
+  label{
+    cursor: pointer;
+    float: right;
+    position: relative;
+    /*display: none;*/
+    margin-top:20px;
+    margin-right:20px;
+    height: 30px;
+    width: 30px;
+  }
+  
+  label span{
+
+    position: absolute;
+    display: block;
+    height: 5px;
+    width: 100%;
+    border-radius: 30px;
+    background:  #D5C06B;
+    transition: 0.25s ease-in-out;
+  }
+  
+  label span:nth-child(1){
+    top: 0;
+  }
+  
+  label span:nth-child(2){
+    top: 8px;
+  }
+  
+  label span:nth-child(3){
+    top: 16px;
+  }
+  
+  #checkbox-menu:checked + label span:nth-child(1){
+    transform: rotate(-45deg);
+    top: 8px;
+  }
+  
+  #checkbox-menu:checked + label span:nth-child(2){
+    opacity: 0;
+  }
+  
+  #checkbox-menu:checked + label span:nth-child(3){
+    transform: rotate(45deg);
+    top:8px;
+  }
