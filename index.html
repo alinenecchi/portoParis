@@ -13,17 +13,34 @@
 </head>
 <body>
     <header>
-        <nav>
+        <div class="header">
             <h1 class="logo">Porto Paris</h1>
+            <input type="checkbox" class="checkbox-menu" id="checkbox-menu">
+            <label for="checkbox-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+            </label>
+        </div>
+        <nav>
             <div class="row">
-                <input type="checkbox" class="checkbox-menu" id="checkbox-menu">
-                <label for="checkbox-menu">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </label>
+                <ul class="main-nav">
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#delivery">Delivery</a></li>
+                    <li><a href="#cardapios">Cardápios</a></li>
+                    <li><a href="#restaurantes">Restaurantes</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#trabalhe">Trabalhe Conosco</a></li>
+                    <li><a href="#reserva">Faça sua reserva</a></li>
+                </ul>
             </div>
         </nav>
     </header>
 </body>
 </html>
+<!-- IMPORTAÇÃO DA BIBLIOTCA JQUERY -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- IMPORTAÇÃO DO NOSSO ARQUIVO DE JAVASCRIPT -->
+<script src="resources/js/menu.js"></script>

@@ -12,16 +12,47 @@ html {
     font-size: 20px;
     text-rendering: optimizeLegibility; /*otimiza a renderiza��o da fonte para letura, tendo uma melhor qualidade*/
 }
-nav {
-    display: flex;
-    justify-content: space-between;
-}
-
 .logo{
     margin: 1rem;
     font-family: 'Viaoda Libre';
     font-weight: 100; 
 }
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.row {
+    max-width: 1140px; /*Define o tamanho m�ximo da linha*/
+    margin: 0 auto 0 auto; /*Define que o container vai ficar centralizado*/
+    /*margin: 0 auto; maneira alternativa para a linha de cima*/
+}
+.main-nav {
+    float: left;
+    display: none;
+    list-style: none; /*Se livra dos bullets - bolinhas pretas - marcadores*/
+    margin-top: 10px; /*colocar um espa�amento acima da lista para baixar ela*/
+}
+.main-nav li {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 10px 0;
+    font-size: 100%;
+    color: #fffafa;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+.main-nav li a:hover,
+.main-nav li a:active {
+    color: #D5C06B;
+}
+
 /* ----------------------------------------------- */
 /* menu hamburguer */
 /* ----------------------------------------------- */
