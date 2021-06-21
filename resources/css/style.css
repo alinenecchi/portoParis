@@ -73,3 +73,9 @@ html {
     transform: rotate(45deg);
     top:8px;
   }
+
+  nav::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
