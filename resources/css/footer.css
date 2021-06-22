@@ -1,20 +1,35 @@
 footer {
-    display: block;
+  width: 100vw;
+  display: flex;
+  position: fixed;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #D5C06B;
+  background-color: #000;
+}
+
+footer > div {
+  margin: 15px;
+  text-align: center;
 }
 
 .social {
-    padding-left: 0px;
+  padding-left: 0px;
+}
+
+.social a {
+  color: #D5C06B;
+  text-decoration: none;
+  display: block;
+  width: 50px;
+  height: 40px;
 }
 
 .social li {
 list-style-type: none;
 display: inline-block;
-width: 50px;
-height: 50px;
-padding: 1%;
-cursor: pointer;
-margin-left: 10px;
-margin-bottom: 20px;
 transition: ease .3s;
 }
 
@@ -24,4 +39,21 @@ transition: ease .3s;
 
 .social:hover > li:hover {
   opacity: 1;
+}
+
+.social i.fa {
+  font-size: 2rem;
+  padding: 5px;
+}
+
+#footer-email {
+  border-radius: 10px;
+  padding: 8px;
+}
+
+#footer-signup {
+  background-color: #D5C06B;
+  color: #000;
+  border-radius: 10px;
+  padding: 8px;
 }
