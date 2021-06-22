@@ -15,6 +15,10 @@ footer > div {
   text-align: center;
 }
 
+footer p {
+  margin-bottom: 10px;
+}
+
 .social {
   padding-left: 0px;
 }
@@ -44,6 +48,10 @@ transition: ease .3s;
 .social i.fa {
   font-size: 2rem;
   padding: 5px;
+}
+
+.footer-form {
+  font-size: 16px;
 }
 
 #footer-email {
