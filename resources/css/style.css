@@ -5,76 +5,18 @@
 }
 
 html {
-    background-color: #000; 
+    background-color: #1a1818; /*Define a cor do fundo*/
     color: #D5C06B;
     font-family: 'Arial', sans-serif; 
     font-size: 16px;
     text-rendering: optimizeLegibility; 
 }
-
 .logo{
     margin: 1rem;
+    font-family: 'Viaoda Libre';
+    font-weight: 100; 
 }
-/* ----------------------------------------------- */
-/* menu hamburguer */
-/* ----------------------------------------------- */
-#checkbox-menu{
-    position: absolute;
-    float: right;
-    display: none;
-    opacity: 30px;
-  }
-  
-  label{
-    cursor: pointer;
-    float: right;
-    position: relative;
-    /*display: none;*/
-    margin-top:20px;
-    margin-right:20px;
-    height: 30px;
-    width: 30px;
-  }
-  
-  label span{
-
-    position: absolute;
-    display: block;
-    height: 5px;
-    width: 100%;
-    border-radius: 30px;
-    background:  #D5C06B;
-    transition: 0.25s ease-in-out;
-  }
-  
-  label span:nth-child(1){
-    top: 0;
-  }
-  
-  label span:nth-child(2){
-    top: 8px;
-  }
-  
-  label span:nth-child(3){
-    top: 16px;
-  }
-  
-  #checkbox-menu:checked + label span:nth-child(1){
-    transform: rotate(-45deg);
-    top: 8px;
-  }
-  
-  #checkbox-menu:checked + label span:nth-child(2){
-    opacity: 0;
-  }
-  
-  #checkbox-menu:checked + label span:nth-child(3){
-    transform: rotate(45deg);
-    top:8px;
-  }
-
-  nav::after {
-    content: "";
-    display: block;
-    clear: both;
-  }
+.header{
+    display: flex;
+    justify-content: space-between;
+}
