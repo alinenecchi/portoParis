@@ -5,18 +5,13 @@
 }
 
 html {
-    background-color: #1a1818; /*Define a cor do fundo*/
+    background-color: #0c0c0c; /*Define a cor do fundo*/
     color: #D5C06B;
     font-family: 'Arial', sans-serif; 
     font-size: 16px;
     text-rendering: optimizeLegibility; 
 }
-.logo{
-    margin: 1rem;
-    font-family: 'Viaoda Libre';
-    font-weight: 100; 
+hr {
+    background: #D5C06B;
 }
-.header{
-    display: flex;
-    justify-content: space-between;
-}
+

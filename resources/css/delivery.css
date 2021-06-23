@@ -4,6 +4,7 @@
     flex-direction: row;
     position: relative;
     padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 .block_link{
