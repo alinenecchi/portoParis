@@ -1,8 +1,6 @@
 footer {
   width: 100vw;
-  display: flex;
-  position: fixed;
-  flex-wrap: wrap;
+  display: contents;
   flex-direction: column;
   justify-content: center;
   align-items: center;
