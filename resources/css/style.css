@@ -6,7 +6,7 @@
 
 html {
     background-color: var(--color-background); /*Define a cor do fundo*/
-    color: var(--color-primary);
+    color: var(--color-text-light);
     font-family: 'Arial', sans-serif; 
     font-size: 16px;
     text-rendering: optimizeLegibility; 
