@@ -45,7 +45,8 @@ transition: ease .3s;
   opacity: 1;
 }
 
-.social i.fa {
+.social i.fa,
+.social i.fab {
   font-size: 2rem;
   padding: 5px;
 }
