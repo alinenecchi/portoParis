@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
            <!-- Importação arquivos CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
     <link rel="stylesheet" type="text/css" href="resources/css/delivery.css">
@@ -116,13 +115,26 @@
         </div>
     </section>
 
-    <section class="dish-menu">
+    <section id="cardapios" class="dish-menu">
+        <h2 id="dish-menu-title">Cardápios</h2>
         <details class="dish-menu-details">
             <summary class="dish-menu-summary">
-                Hamburguers
+                <div>
+                    <i class="fas fa-hamburger"></i>
+                    Hamburguers
+                </div>
+                <div>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
             </summary>
-            <div>
-
+            <div class="dish-menu-content">
+                <div class="dcm-picture" />
+                <div class="dcm-title">
+                    Nome do Prato
+                </div>
+                <div class="dcm-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio enim aspernatur asperiores minima rem quaerat voluptatem qui nostrum mollitia et, commodi natus iure, at reiciendis dolor sint. Cupiditate, sunt dolor!
+                </div>
             </div>
         </details>
         <details class="dish-menu-details">

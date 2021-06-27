@@ -1,0 +1,86 @@
+@import url(colors.css);
+
+/* 
+<section id="cardapios" class="dish-menu">
+    <h2 id="dish-menu-title">Cardápios</h2>
+    <details class="dish-menu-details">
+        <summary class="dish-menu-summary">
+            <i class="fas fa-hamburger"></i>
+            Hamburguers
+        </summary>
+        <div class="dish-menu-content"> 
+*/ 
+
+section#cardapios {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#dish-menu-title {
+    text-align: center;
+}
+
+details.dish-menu-details {
+    width: 90vw;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    background-color: var(--color-background);
+}
+
+summary.dish-menu-summary {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 10px;
+    background-color: var(--color-primary);
+    color: white;
+    padding: 10px;
+    list-style: none;
+    font-weight: bold;
+}
+
+summary.dish-menu-content {
+    background-color: hotpink;
+    display: flex;
+    flex-direction: column;
+}
+
+summary.dcm-picture {
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+summary.dcm-picture {
+
+}
+
+summary.dcm-picture {
+
+}
+
+summary.dish-menu-summary::-webkit-details-marker { 
+    display: none;
+}
+
+details[open] summary.dish-menu-summary {
+	background-color: var(--color-background);
+    color: var(--color-primary);
+}
+
+details[open] summary.dish-menu-summary i.fa-chevron-down{
+    transform: rotate(-180deg);
+    transition: 0.5s transform ease;
+}
+
+details summary.dish-menu-summary i.fa-chevron-down{
+    transform: rotate(0deg);
+    transition: 0.5s transform ease;
+}
