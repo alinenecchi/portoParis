@@ -1,0 +1,35 @@
+section#faq {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#faq-title {
+    margin: 10px;
+}
+
+details.faq-details {
+    width: 90vw;
+    margin-bottom: 5px;
+    background-color: #D5C06B;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+
+}
+
+summary.faq-summary {
+    width: 100%;
+    background-color: transparent;
+    color: black;
+    padding: 10px;
+}
+
+summary.faq-summary::-webkit-details-marker {
+	display: none;
+}
+
