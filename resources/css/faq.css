@@ -24,6 +24,7 @@ details.faq-details {
 
 summary.faq-summary {
     width: 100%;
+    font-weight: bold;
     background-color: transparent;
     color: black;
     padding: 10px;
@@ -33,3 +34,7 @@ summary.faq-summary::-webkit-details-marker {
 	display: none;
 }
 
+div.faq-content {
+    padding: 12px;
+
+}
