@@ -4,8 +4,8 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #D5C06B;
-  background-color: #0c0c0c;
+  color: var(--color-primary);
+  background-color: var(--color-background);
 }
 
 footer > div {
@@ -22,7 +22,7 @@ footer p {
 }
 
 .social a {
-  color: #D5C06B;
+  color: var(--color-primary);
   text-decoration: none;
   display: block;
   width: 50px;
@@ -59,7 +59,7 @@ transition: ease .3s;
 }
 
 #footer-signup {
-  background-color: #D5C06B;
+  background-color: var(--color-primary);
   color: #000;
   border-radius: 10px;
   padding: 8px;

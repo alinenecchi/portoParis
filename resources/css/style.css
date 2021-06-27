@@ -5,13 +5,13 @@
 }
 
 html {
-    background-color: #0c0c0c; /*Define a cor do fundo*/
-    color: #D5C06B;
+    background-color: var(--color-background); /*Define a cor do fundo*/
+    color: var(--color-primary);
     font-family: 'Arial', sans-serif; 
     font-size: 16px;
     text-rendering: optimizeLegibility; 
 }
 hr {
-    background: #D5C06B;
+    background: var(--color-primary);
 }
 

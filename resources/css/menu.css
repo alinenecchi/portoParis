@@ -36,7 +36,7 @@
 }
 .main-nav li a:hover,
 .main-nav li a:active {
-    color: #D5C06B;
+    color: var(--color-primary);
 }
 
 /* ----------------------------------------------- */
@@ -67,7 +67,7 @@
     height: 5px;
     width: 100%;
     border-radius: 30px;
-    background:  #D5C06B;
+    background:  var(--color-primary);
     transition: 0.25s ease-in-out;
   }
   
