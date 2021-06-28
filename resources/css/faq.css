@@ -1,3 +1,5 @@
+@import url(colors.css);
+
 section#faq {
     width: 100vw;
     display: flex;
@@ -14,7 +16,7 @@ details.faq-details {
     width: 90vw;
     margin-bottom: 5px;
     background-color: var(--color-primary);
-    color: var(--color-background);
+    color: var(--color-text-dark);
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -26,7 +28,7 @@ summary.faq-summary {
     width: 100%;
     font-weight: bold;
     background-color: transparent;
-    color: var(--color-background);
+    color: var(--color-text-dark);
     padding: 10px;
 }
 
