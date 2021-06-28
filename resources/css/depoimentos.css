@@ -1,0 +1,23 @@
+/*.depoimentos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	height: 300px;
+    width: 100%;
+}
+@charset 'UTF-8';
+/* Slider */
+.depoimentos {
+    padding: 2rem;
+    margin: 1rem;
+}
+.slider-dp {
+    width: 100%;
+    align-items: center;
+    background: black;
+    box-shadow: 1px 1px 1px 1px rgba(255, 228, 196, 0.308);	
+    box-shadow: inset 0 0 0.1em var(--color-primary), 0 0 0.5em var(--color--White-pearly);
+    border-radius: 1.5rem;
+    margin: 1rem;
+}
+
