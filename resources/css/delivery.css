@@ -28,7 +28,7 @@
 }
 .line2_delivery{
     display: block;
-    color: #fffafa; 
+    color: var(--color--White-pearly); 
     font-size: 100%;
 }
 .line1_delivery{
