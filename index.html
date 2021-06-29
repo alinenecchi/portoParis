@@ -96,27 +96,36 @@
         </nav>
     </header>
   
-    <section>
-        <div id="delivery" class="delivery">
-            <div class="block_img">
-                <img class="img_banner" src="resources/img/Banner/banner.png" alt="Banner" title="Banner">
+    <section id="delivery" class="delivery">
+        <div class="block-img">
+            <img class="img_banner" src="resources/img/Banner/banner.png" alt="Banner" title="Banner">
+        </div>
+        <div class="delivery-content">
+            <div class="delivery-text">
+                <p class="line1-delivery">Porto Paris</p>
+                <p class="line2-delivery">sem sair de casa?</p>
             </div>
-            <div class="text_delivery">
-                <p class="line1_delivery">Porto Paris</p>
-                <p class="line2_delivery">sem sair de casa?</p>
-            </div>
-            <div class="block_link">
-                <a target="blanck" href="https://www.ifood.com.br/delivery/porto-alegre-rs/porto-paris-bistro-porto-alegre-praia-de-belas/70c19330-95d4-46a8-b6a9-9aa01f4e7873">
-                    <img class="link_delivery" width="50px" src="resources/img/Delivery/ifood.png" alt="Ifood" title="Ifood">
-                </a>
-                <a target="blanck" href="https://www.ubereats.com/pt-BR/porto-alegre/food-delivery/porto-paris-bistro/W8w70_6aRx6MMl479BYXcg/">
-                    <img class="link_delivery" width="50px" src="resources/img/Delivery/uber-eats.jpg" alt="UberEats" title="UberEats">
-                </a>
-                <a target="blanck" href="https://www.rappi.com.br/?gclid=cjwkcaiazupubraieiwakkmosmnpr_md6rb6z-fus4eokqv11chfyb4_6lckzbq1tv-4b6blsxgahboc1icqavd_bwe">
-                    <img class="link_delivery" width="50px" src="resources/img/Delivery/rappi2.jpg" alt="Rappi" title="Rappi">
-                </a>
+            <div class="delivery-links">
+                <ul>
+                    <li>
+                        <a target="_blank" href="https://www.ifood.com.br/delivery/porto-alegre-rs/porto-paris-bistro-porto-alegre-praia-de-belas/70c19330-95d4-46a8-b6a9-9aa01f4e7873">
+                            <img class="link-delivery" width="50px" src="resources/img/Delivery/ifood.png" alt="Ifood" title="Ifood">
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.ubereats.com/pt-BR/porto-alegre/food-delivery/porto-paris-bistro/W8w70_6aRx6MMl479BYXcg/">
+                            <img class="link-delivery" width="50px" src="resources/img/Delivery/uber-eats.jpg" alt="UberEats" title="UberEats">
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.rappi.com.br/?gclid=cjwkcaiazupubraieiwakkmosmnpr_md6rb6z-fus4eokqv11chfyb4_6lckzbq1tv-4b6blsxgahboc1icqavd_bwe">
+                            <img class="link-delivery" width="50px" src="resources/img/Delivery/rappi2.jpg" alt="Rappi" title="Rappi">
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
+        
     </section>
 
     <section id="cardapios" class="dish-menu">
@@ -131,7 +140,7 @@
                     <i class="fas fa-chevron-down"></i>
                 </div>
             </summary>
-            <div class="dish-menu-content">
+            <div id="dish-menu" class="dish-menu-content">
                 <div class="dmc-picture"></div>
                 <div class="dmc-title">
                     Nome do Prato
@@ -289,3 +298,4 @@
 <script src="vendors/js/slider.js"></script>
 <!-- IMPORTAÇÃO DO NOSSO ARQUIVO DE JAVASCRIPT -->
 <script src="resources/js/menu.js"></script>
+<script src="resources/js/cardapio.js"></script>
