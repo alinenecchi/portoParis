@@ -13,13 +13,14 @@ html {
 
 html,
 body {
-    height: 100vh;
     font-family: 'Arial', sans-serif; 
     text-rendering: optimizelegibility;
     -webkit-font-smoothing: antialiased;
 }
   
 body {
+    height: 100vh;
+    max-width: 100vw ;
     background-color: var(--color-background); /*Define a cor do fundo*/
     color: var(--color-text-light);
     font-size: 1.6rem;

@@ -1,18 +1,7 @@
 @import url(colors.css);
 
-/* 
-<section id="cardapios" class="dish-menu">
-    <h2 id="dish-menu-title">Cardápios</h2>
-    <details class="dish-menu-details">
-        <summary class="dish-menu-summary">
-            <i class="fas fa-hamburger"></i>
-            Hamburguers
-        </summary>
-        <div class="dish-menu-content"> 
-*/ 
-
 section#cardapios {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,7 +13,7 @@ section#cardapios {
 }
 
 details.dish-menu-details {
-    width: 90vw;
+    width: 90%;
     margin-bottom: 10px;
     border-radius: 10px;
     display: flex;
@@ -73,19 +62,26 @@ details summary.dish-menu-summary i.fa-chevron-down{
 details div.dish-menu-content {
     display: flex;
     flex-direction: column;
-    background-color: hotpink;
-}
-/* 
-details div.dmc-picture {
-    background-size: cover;
-    background-repeat:no-repeat;
+    align-items: center;
+    background-color: var(--color-background);
 }
 
-details div.dmc-picture {
-
+details div.dish-menu-content div.dmc-picture {
+    display: flex;
+    max-width: 240px;
+    margin-top: 25px;
 }
 
-details div.dmc-picture {
+details div.dish-menu-content div.dmc-picture img {
+    width: 100%;
+}
 
+details div.dish-menu-content div.dmc-title {
+    font-size: 1.6rem;
+    color: var(--color-primary);
+}
+
+details div.dish-menu-content div.dmc-description {
+    font-size: 1rem;
+    color: var(--color-primary);
 } 
-*/
