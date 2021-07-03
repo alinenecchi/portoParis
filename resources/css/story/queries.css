@@ -1,0 +1,32 @@
+/* grid styles ------------------------------------ */
+@media (min-width: 600px) {
+    main {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+  
+    .info1 {
+       grid-column: span 2;
+       grid-row: span 2;
+    }
+    .info2 {
+      grid-column: span 2;
+    }
+    .info3 {
+        grid-column: span 2;
+        grid-row: span 1;
+      }
+    .figure1 {
+      grid-column: span 3;
+      grid-row: span 2;
+    }
+    .figure6 {
+      grid-column: span 2;
+    }
+    .figure7 {
+      grid-column: span 3;
+    }
+    .figure8 {
+        grid-column: span 2;
+      }
+  }

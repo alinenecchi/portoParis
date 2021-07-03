@@ -12,6 +12,7 @@
     display: block;
     margin: 0 auto;
     width:60vh;
+    margin-bottom: 2rem;
     object-fit: contain;
   }
   .voltar a {

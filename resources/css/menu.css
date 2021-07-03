@@ -1,9 +1,9 @@
-.logo{
+.logo {
   margin: 1rem;
   font-family: 'Viaoda Libre';
   font-weight: 100; 
 }
-.header{
+.header {
   display: flex;
   justify-content: space-between;
 }
@@ -42,7 +42,7 @@
 /* ----------------------------------------------- */
 /* menu hamburguer */
 /* ----------------------------------------------- */
-#checkbox-menu{
+#checkbox-menu {
     position: absolute;
     float: right;
     display: none;
@@ -60,8 +60,7 @@
     width: 30px;
   }
   
-  label span{
-
+  label span {
     position: absolute;
     display: block;
     height: 5px;
