@@ -4,6 +4,9 @@
     font-family: 'Viaoda Libre';
   }
 .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
     margin: 1rem;
     font-weight: 100; 
     font-size: 200%;

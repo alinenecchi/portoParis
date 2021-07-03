@@ -4,7 +4,6 @@
     height: 100%;
     object-fit: cover;
 }
-  
 .info1 {
     padding: 40px;
     background-color: var(--color-primary);
@@ -20,7 +19,6 @@
     background-color: var(--color-primary);
     color: var(--color-background);
 }
-  
 h2 {
     font-size: 2em;
     margin-bottom: 1em;
