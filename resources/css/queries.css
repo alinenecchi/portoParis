@@ -28,8 +28,7 @@
         justify-content: flex-start;
     }
    .delivery {
-       flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: center;
         max-width: 70%; 
     }
     .block_img {
@@ -39,17 +38,17 @@
     .block_link {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-        margin: 2rem 0 0 1rem;
+        justify-content: space-evenly;
+        margin: 2rem 0 0 0;
     }
     .text_delivery {
-        margin: 1rem 0 0 2rem;
+        margin: 3rem 0 0 2rem;
         padding-right: 5rem;
         
     }
     .link_delivery{
-        margin-left: 0.5rem;
-        min-width:13vh ;
+        margin-left: 1rem;
+        min-width:7rem ;
     }
     .line2_delivery {
         font-size: 120%;
