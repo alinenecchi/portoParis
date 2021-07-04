@@ -1,25 +1,51 @@
 @media (min-width: 600px) {
+    /*---menu.css------------------------------------ */
     .header {
         margin-right: 1rem;
     }
+    #checkbox-menu{
+        display: none;
+      }
+    label{
+        display: none;
+    }
+    .main-nav {
+        display: inline !important;
+        margin: 0 auto;
+        text-transform: lowercase !important; 
+        padding: 1rem;
+    }
+    .main-nav li {
+        display: inline-block;
+        margin-left: 30px;
+        font-size: 80%;
+    }
+    ion-icon {
+        display: none !important;
+    }
+    /*---delivery.css ------------------------------------ */
     .container-delivery {
         justify-content: flex-start;
-        max-width: 1200px; 
     }
    .delivery {
+       flex-direction: column;
         justify-content: space-evenly;
-        
+        max-width: 70%; 
     }
+    .block_img {
+        margin: auto 0; 
+    }
+  
     .block_link {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        margin-top:2rem;
-        margin-left: 1rem; 
+        margin: 2rem 0 0 1rem;
     }
     .text_delivery {
-        margin-left: 2rem;
+        margin: 1rem 0 0 2rem;
         padding-right: 5rem;
+        
     }
     .link_delivery{
         margin-left: 0.5rem;
@@ -31,6 +57,7 @@
     .line1_delivery {
         width: 180px;
         font-size: 160%;
+        padding-bottom: 0.5rem;
     }   
   
 }
