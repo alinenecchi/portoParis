@@ -1,15 +1,20 @@
-section#delivery {
-    width: 100vw;
+.container-delivery {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: left;
-    align-items: left;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
     padding-bottom: 1rem;
     padding-top: 1rem;
+    margin-right: 1rem;
+}
+.delivery {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
 }
 
-.block-img {
+.block_link {
     display: flex;
     width: 48%;
 }
@@ -24,16 +29,11 @@ section#delivery {
     margin-top: 6rem;
     /* margin-left: -11rem;  */
 }
-.delivery-links ul {
-    list-style-type: none;
-    display: flex;
-}
-
-.link-delivery{
+.link_delivery {
     border-radius: 50%; 
     margin: 0.5rem;
 }
-.text-delivery{
+.text_delivery {
     text-transform: uppercase;
     font-family: 'Viaoda Libre';
     font-weight: 100; 
@@ -41,20 +41,14 @@ section#delivery {
     margin-top: 3rem;
 
 }
-.line2-delivery{
+.line2_delivery {
     display: block;
-    color: var(--color--White-pearly); 
+    color: var(--color--01); 
     font-size: 100%;
 }
-.line1-delivery{
+.line1_delivery {
     display: block;
     width: 150px;
     font-size: 140%;
 }
 
-@media only screen and (min-width: 670px) {
-    .delivery-content{
-        flex-direction: row;
-        justify-content: left;
-    }
-}

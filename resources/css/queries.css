@@ -1,0 +1,38 @@
+@media (min-width: 600px) {
+    .header {
+        margin-right: 1rem;
+    }
+    .container-delivery {
+        justify-content: flex-start;
+        max-width: 1200px; 
+    }
+   .delivery {
+        justify-content: space-evenly;
+        
+    }
+    .block_link {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top:2rem;
+        margin-left: 1rem; 
+    }
+    .text_delivery {
+        margin-left: 2rem;
+        padding-right: 5rem;
+    }
+    .link_delivery{
+        margin-left: 0.5rem;
+        min-width:13vh ;
+    }
+    .line2_delivery {
+        font-size: 120%;
+    }
+    .line1_delivery {
+        width: 180px;
+        font-size: 160%;
+    }   
+  
+}
+
+
