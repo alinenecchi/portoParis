@@ -58,6 +58,14 @@
         font-size: 160%;
         padding-bottom: 0.5rem;
     }   
+    /*---location.css ------------------------------------ */
+    .embed {
+        width: 50rem;
+    }
+    iframe {
+        width: 40rem;
+        height: 20rem;
+    }
   
 }
 
