@@ -21,7 +21,7 @@ body {
 body {
     height: 100vh;
     max-width: 100vw ;
-    background-color: var(--color-background); /*Define a cor do fundo*/
+    background-color: var(--color-background);
     color: var(--color-text-light);
     font-size: 1.6rem;
 }
