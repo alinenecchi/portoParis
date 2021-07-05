@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content:space-between;
+    font-family: 'Viaoda Libre';
+  }
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin: 1rem;
+    font-weight: 100; 
+    font-size: 200%;
+  }
+  .img-banner {
+    display: block;
+    margin: 0 auto;
+    width:60vh;
+    margin-bottom: 2rem;
+    object-fit: contain;
+  }
+  .voltar a {
+    color: var(--color-primary);
+    text-decoration: none;
+    margin: 3rem;
+    padding-right: 1rem;
+    font-size: 110% ;
+  }
+
+
+  

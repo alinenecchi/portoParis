@@ -1,0 +1,42 @@
+.history {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    width: 100%;
+    color: var(--color_2);
+    font: var(--font_2);
+}
+.card-text-1 {
+  background-color: var(--color-background);
+  color: var(--color-primary);
+  margin-bottom: 1em;
+}
+.title {
+    font-size: 2em;
+    margin-bottom: 1em;
+    font-weight: 100; 
+    border-bottom-style: groove;
+    border-color: var(--color--03);
+    color: var(--color--03) ;
+  }
+  .title-1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    font-weight: 100; 
+    border-bottom-style: groove;
+    border-color: var(--color--03);
+    color:  var(--color-background);
+  }
+  .title-h3 {
+    text-transform: uppercase; 
+    text-align: center;
+    font-size: 100%;
+    margin-top: -1rem;
+    margin-bottom: 1em;
+  }
+  .text {
+    margin-bottom: 1em;
+    font-size: 120%;
+  }

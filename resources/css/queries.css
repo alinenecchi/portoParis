@@ -1,0 +1,86 @@
+@media (min-width: 600px) {
+    /*---menu.css------------------------------------ */
+    .header {
+        margin-right: 1rem;
+    }
+    #checkbox-menu{
+        display: none;
+      }
+    label{
+        display: none;
+    }
+    .main-nav {
+        display: inline !important;
+        margin: 0 auto;
+        text-transform: lowercase !important; 
+        padding: 1rem;
+    }
+    .main-nav li {
+        display: inline-block;
+        margin-left: 30px;
+        font-size: 80%;
+    }
+    ion-icon {
+        display: none !important;
+    }
+    /*---delivery.css ------------------------------------ */
+    .container-delivery {
+        justify-content: flex-start;
+    }
+   .delivery {
+        justify-content: center;
+        max-width: 70%; 
+    }
+    .block_img {
+        margin: auto 0; 
+    }
+  
+    .block_link {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 2rem 0 0 0;
+    }
+    .text_delivery {
+        margin: 3rem 0 0 2rem;
+        padding-right: 5rem;
+        
+    }
+    .link_delivery{
+        margin-left: 1rem;
+        min-width:7rem ;
+    }
+    .line2_delivery {
+        font-size: 120%;
+    }
+    .line1_delivery {
+        width: 180px;
+        font-size: 160%;
+        padding-bottom: 0.5rem;
+    }   
+    /*---location.css ------------------------------------ */
+    .embed {
+        width: 50rem;
+    }
+    iframe {
+        width: 40rem;
+        height: 20rem;
+    }
+   /* chat bot ------------------------------------ */
+   .chat_on{
+    width: 5rem;
+    height: 5rem;
+    bottom: 12rem;
+    padding: 1rem;
+    left: 15rem;
+    }  
+    .chat_on_icon{
+        font-size: 2rem;
+    }
+    /* depoimentos     ------------------------------------ */
+    .slider-dp {
+        height: 300px !important;
+    }
+}
+
+
