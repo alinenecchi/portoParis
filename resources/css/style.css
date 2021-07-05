@@ -21,6 +21,8 @@ body {
 body {
     height: 100vh;
     max-width: 100vw ;
+    max-width: 1000px;
+    margin: 0 auto;
     background-color: var(--color-background);
     color: var(--color-text-light);
     font-size: 1.6rem;
