@@ -1,3 +1,5 @@
+@import url(colors.css);
+
 .container-delivery {
     display: flex;
     flex-direction: row;
