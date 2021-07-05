@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
            <!-- Importação arquivos CSS -->
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/story/chatbot.css">
     <link rel="stylesheet" type="text/css" href="resources/css/story/header.css">
     <link rel="stylesheet" type="text/css" href="resources/css/story/index.css">
     <link rel="stylesheet" type="text/css" href="resources/css/story/info.css">
     <link rel="stylesheet" type="text/css" href="resources/css/story/queries.css">
     <link rel="stylesheet" type="text/css" href="resources/css/story/story.css">
     <link rel="stylesheet" type="text/css" href="resources/css/dish-menu.css">
-    <link rel="stylesheet" type="text/css" href="resources/css/menu.css">
-    <link rel="stylesheet" type="text/css" href="resources/css/delivery.css">
-    <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/footer.css">
        <!-- Importação dos icones -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
@@ -109,18 +109,67 @@
             <img class="figure-img" src="resources/img/Story/juices02.jpg" alt="a kitten">
          </figure>
       </main>
-    
+      <footer class="footer">
+        <div class="contact">
+            <p>Contato</p>
+            <span><i class="fa fa-phone" aria-hidden="true"></i>  (51) 99999-9999</span>
+        </div>
+        <div class="footer-social">
+            <ul class="social">
+                <li><a href="https://www.facebook.com/PortoParisBistroPoa/?ref=br_rs" target="_blank"><i class="fab fa-facebook-square" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/portoparisbistropoa/?igshid=1jyn9545y796w&fbclid=IwAR1htj9MzmZV_7YYXZmupxucHLeIRvQGxpvMxuBPyZI2Dtv4byxHKNIhSfM" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
+              </ul>
+        </div>
+        <div id="subscribe">
+            <form action="#">
+                <div class="footer-form">
+                    <p>Receba nossas novidades e promoções!</p>
+                    <input id="footer-email" type="email" placeholder="Email">
+                    <button id="footer-signup" type="submit"><i class="fa fa-paper-plane"></i>  Inscreva-se</button>
+                </div>
+            </form>
+        </div>
+    </footer>
+
+    <div class="container">
+        <div class="row">
+            <div id="Smallchat">
+                <div class="Layout Layout-open Layout-expand Layout-right" style="background-color: #D5C06B; color: #0c0c0c; opacity: 5; border-radius: 10px;">
+                    <div class="Messenger_messenger">
+                        <div class="Messenger_header" style="background-color: #D5C06B; color: #0c0c0c;">
+                            <h4 class="Messenger_prompt">Olá, em breve poderemos atende-lo!</h4> <span class="chat_close_icon"><i class="fa fa-window-close" aria-hidden="true"></i></span>
+                        </div>
+                        <div class="Messenger_content">
+                            <div class="Messages">
+                                <div class="Messages_list"></div>
+                            </div>
+                            <div class="Input Input-blank">
+                                <textarea class="Input_field" placeholder="Digite aqui ..." style="height: 20px;"></textarea>
+                                <button id ="input" class="Input_button Input_button-send">
+                                    <div class="Icon" style="width: 18px; height: 18px;">
+                                        <svg width="57px" height="54px" viewBox="1496 193 57 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="width: 18px; height: 18px;">
+                                        <g id="Group-9-Copy-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(1523.000000, 220.000000) rotate(-270.000000) translate(-1523.000000, -220.000000) translate(1499.000000, 193.000000)">
+                                            <path d="M5.42994667,44.5306122 L16.5955554,44.5306122 L21.049938,20.423658 C21.6518463,17.1661523 26.3121212,17.1441362 26.9447801,20.3958097 L31.6405465,44.5306122 L42.5313185,44.5306122 L23.9806326,7.0871633 L5.42994667,44.5306122 Z M22.0420732,48.0757124 C21.779222,49.4982538 20.5386331,50.5306122 19.0920112,50.5306122 L1.59009899,50.5306122 C-1.20169244,50.5306122 -2.87079654,47.7697069 -1.64625638,45.2980459 L20.8461928,-0.101616237 C22.1967178,-2.8275701 25.7710778,-2.81438868 27.1150723,-0.101616237 L49.6075215,45.2980459 C50.8414042,47.7885641 49.1422456,50.5306122 46.3613062,50.5306122 L29.1679835,50.5306122 C27.7320366,50.5306122 26.4974445,49.5130766 26.2232033,48.1035608 L24.0760553,37.0678766 L22.0420732,48.0757124 Z" id="sendicon" fill="#96AAB4" fill-rule="nonzero"></path>
+                                        </g>
+                                        </svg>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--===============CHAT ON BUTTON STRART===============-->
+                <div class="chat_on"> <span class="chat_on_icon"><i class="fa fa-question" aria-hidden="true"></i></span> </div>
+                <!--===============CHAT ON BUTTON END===============-->
+            </div>
+        </div>
+    </div>
 </body>
 </html>
-<!-- IMPORTAÇÃO DA BIBLIOTCA DE ÍCONES -->
-<script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons.js"></script>
-<!-- IMPORTAÇÃO DA BIBLIOTCA JQUERY -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<!-- IMPORTAÇÃO DA BIBLIOTCA slick -->
-<script type="text/javascript" src="vendors/slick-1.8.1/slick/slick.min.js"></script>
-<script src="vendors/js/slider.js"></script>
 <!-- IMPORTAÇÃO DO NOSSO ARQUIVO DE JAVASCRIPT -->
-<script src="resources/js/menu.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 <script src="resources/js/story.js"></script>
+<script src="resources/js/chatbot.js"></script>
