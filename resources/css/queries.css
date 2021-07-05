@@ -3,6 +3,10 @@
     .header {
         margin-right: 1rem;
     }
+    hr {
+        background: var(--color-primary);
+        display: none;
+    }
     #checkbox-menu{
         display: none;
       }
