@@ -73,10 +73,14 @@
     bottom: 12rem;
     padding: 1rem;
     left: 15rem;
-  }  
-  .chat_on_icon{
-    font-size: 2rem;
-  }
+    }  
+    .chat_on_icon{
+        font-size: 2rem;
+    }
+    /* depoimentos     ------------------------------------ */
+    .slider-dp {
+        height: 300px !important;
+    }
 }
 
 

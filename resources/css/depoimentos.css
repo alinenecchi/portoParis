@@ -29,11 +29,13 @@
     border-radius: 10rem;
     padding: 0.2rem;
 }
-.title_dp {
+.title_dp h3 {
+    white-space : nowrap;
+    margin: 0.2rem;
     align-items: center;
-    padding: 0.2rem;
 }
 .text_dp {
+    content: '';
     text-align: center;
     align-items: center;
 }
