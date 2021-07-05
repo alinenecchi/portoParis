@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/work.css"> 
+
+    <title>Porto Paris</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <span>Porto Paris</span>
+            </div>
+            <div class="voltar">
+                <a href="index.html"><i class="fas fa-times"></i></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="title">
+            <span>Trabalhe Conosco</span>
+        </div>
+        <form>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+
+                <label for="name">Nome Completo: </label>
+                <input type="text" name="name" id="name" required autofocus>
+                
+                <label for="phone">Telefone: </label>
+                <input type="tel" name="phone" id="phone" required>
+                
+                <label for="mail">E-mail: </label>
+                <input type="email" name="mail" id="mail" required>
+                   
+                <label for="site">URL Site Pessoal: </label>
+                <input type="url" name="site" id="site">
+
+            </fieldset>
+            <fieldset>
+                <legend>Dados Profissionais</legend>
+
+                <label for="education">Formação: </label>
+                <select name="education" id="education">
+                    <option>Ensino Fundamental </option>
+                    <option>Ensino Médio </option>>
+                    <option>Ensino Superior </option>
+                    <option>Especialização </option>
+                </select   >
+                
+                <label for="hist">Breve Histórico Profissional:</label>
+                <textarea id="hist" name="hist"></textarea>
+                
+            </fieldset>
+            <fieldset>
+                <legend>Áreas de Interesse:</legend>
+                <div class="check">
+                    <input type="checkbox" name="areas" id="ck1" value="adm">
+                    <label for="ck1">Administrativo </label>
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="areas" id="ck2" value="atend">
+                    <label for="ck2">Atendimento </label>
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="areas" id="ck3" value="coz">
+                    <label for="ck3">Cozinha </label>
+                </div>
+            </fieldset>
+            <div class="upload">
+                <label for="cv">Upload do Currículo:</label>
+                <input type="file" name="cv" id="cv">
+            </div>
+            <div class="btn-box">
+                <input type="submit" id="submit" name="submit" value="ENVIAR">
+                <input type="reset" id="reset" name="reset" value="LIMPAR"> 
+            </div>
+        </form>
+    </main>
+</body>
+</html>
