@@ -4,14 +4,16 @@
     position: relative;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    margin-right: 1rem;
+    margin-right: 5rem;
 }
 .delivery {
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
+}
+p, .delivery {
+    margin: 0;
+    padding: 0;
 }
 
 .block_link {
