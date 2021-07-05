@@ -28,5 +28,16 @@
     }
     .figure8 {
         grid-column: span 2;
-      }
-  }
+    }
+    /* chat bot ------------------------------------ */
+    .chat_on{
+      width: 5rem;
+      height: 5rem;
+      bottom: 12rem;
+      padding: 1rem;
+      left: 15rem;
+    }  
+    .chat_on_icon{
+      font-size: 2rem;
+    } 
+}
