@@ -51,7 +51,6 @@ details summary.faq-summary i.fa-chevron-down{
     transition: 0.5s transform ease;
 }
 
-
 div.faq-content {
     padding: 12px;
 }
@@ -59,22 +58,31 @@ div.faq-content {
 .faq-form {
     display: flex;
     flex-direction: column;
-    justify-content: right;
+    text-align: right;
+}
+
+.faq-form textarea,
+.faq-form input[type=email] {
+    display: flex;
+    background-color: var(--color-primary);
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+    border: solid 1px var(--color-text-dark);
+    outline: none;
 }
 
 .faq-form textarea {
-    width: 100%;
     height: 50px;
 }
 
-.faq-form input[email] {
-    width: 100%;
-}
-
 .faq-form button[type=submit] {
-    background-color: var(--color--White-pearly);
-    color: var(--color-text-dark);
-    border: solid 1px var(--color-background);
+    width: 40%;
+    font-weight: bold;
+    background-color: var(--color-background);
+    color: var(--color-text-light);
+    border: solid 1px var(--color-text-dark);
     border-radius: 15px;
     padding: 5px 8px;
     margin: 5px;
