@@ -1,13 +1,14 @@
 @import url(colors.css);
 
 footer {
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   color: var(--color-primary);
   background-color: var(--color-background);
+  margin-top: 6rem;
 }
 
 footer div {
@@ -27,8 +28,8 @@ footer p.contact {
   color: var(--color-primary);
   text-decoration: none;
   display: block;
-  width: 50px;
-  height: 40px;
+  width: 60px;
+  height: 50px;
   margin: 5px;
 }
 
@@ -41,7 +42,6 @@ transition: ease .3s;
 .social i.fa,
 .social i.fab {
   font-size: 4rem;
-  padding: 5px;
 }
 
 #footer-email {
@@ -62,9 +62,7 @@ transition: ease .3s;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
-    padding: 0 4%;
-
+    justify-content: center;
   }
 }
 
@@ -76,6 +74,4 @@ transition: ease .3s;
   .social:hover > li:hover {
     opacity: 1;
   }
-
-
 }

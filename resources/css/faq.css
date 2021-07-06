@@ -14,16 +14,14 @@ section#faq {
 
 details.faq-details {
     width: 90%;
-    margin-bottom: 5px;
     background-color: var(--color-primary);
     color: var(--color-text-dark);
     border-radius: 10px;
     display: flex;
     justify-content: center;
     text-align: left;
+    margin: 0.1rem;
 }
-
-
 details summary.faq-summary {
     width: 100%;
     display: flex;

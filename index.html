@@ -3,7 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-           <!-- Importação arquivos CSS -->
+    <!-- Importação dos icones -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+    <!-- Importação da fonte Lato -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&amp;subset=latin-ext" rel="stylesheet">     
+    <!-- Importação da fonte Viaoda -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
+    <!-- Importação arquivos CSS -->
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
@@ -19,15 +27,6 @@
     <link rel="stylesheet" type="text/css" href="resources/css/menu.css">
     <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
-        <!-- Importação dos icones -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
-        <!-- Importação da fonte Lato -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&amp;subset=latin-ext" rel="stylesheet">     
-        <!-- Importação da fonte Viaoda -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
-
     <title>Porto Paris</title>
 </head>
 <body>
@@ -44,12 +43,6 @@
         <nav>
             <div class="row">
                 <ul class="main-nav">
-                    <li>
-                        <a href="#location">
-                            <ion-icon name='menu' class="fas fa-motorcycle"></ion-icon>
-                            &nbsp;Como chegar?
-                        </a>
-                    </li>
                     <li>
                         <a href="#location">
                             <ion-icon name='menu' class="fas fa-motorcycle"></ion-icon>
@@ -93,19 +86,15 @@
                         </a>
                     </li>
                 </ul>
-           
             </div>
         </nav>
     </header>
-    <hr style="max-width:100%;height:2px;"/>
+    <hr style="max-width:100%;height:2px;margin-top:-0.5rem;"/> 
     <section class="container-delivery">
-        <div class="block_img">
-            <img class="img_banner" width="208"  src="resources/img/Banner/banner@3x.png" alt="Banner" title="Banner">
-        </div>
         <div id="delivery" class="delivery">
             <div class="text_delivery">
-                <p class="line1_delivery">Porto Paris</p>
-                <p class="line2_delivery">sem sair de casa?</p>
+                <h2 class="line1_delivery">Porto Paris</h2>
+                <h2 class="line2_delivery">sem sair de casa?</h2>
             </div>
             <div class="block_link">
                 <a target="blanck" href="https://www.ifood.com.br/delivery/porto-alegre-rs/porto-paris-bistro-porto-alegre-praia-de-belas/70c19330-95d4-46a8-b6a9-9aa01f4e7873">
@@ -119,10 +108,7 @@
                 </a>
             </div>
         </div>
-        
     </section>
-    <hr style="max-width:1200px;height:2px;"/>
-    
     <section id="cardapios" class="dish-menu">
         <h2 id="dish-menu-title">Cardápios</h2>
         <details class="dish-menu-details">
@@ -185,7 +171,7 @@
     <section  id="location" class="location-container">
         <div class="location">
             <div class="title">
-                <h1 class="title-h1">Como Chegar </h1>
+                <h2 class="title-h1">Como Chegar </h2>
             </div>
             <div class="embed">
                 <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.7519962743063!2d-51.23256628496436!3d-30.043972081882497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951978fcfe0798c5%3A0xa7f8c015dc10c3a1!2sPorto%20Paris!5e0!3m2!1spt-BR!2sbr!4v1574563145720!5m2!1spt-BR!2sbr"></iframe>

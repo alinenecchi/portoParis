@@ -3,6 +3,12 @@
     .header {
         margin-right: 1rem;
     }
+    .row {
+        margin: 0 auto 0 auto; 
+    }
+    ul, .main-nav {
+        margin: 0 auto;
+    }
     hr {
         background: var(--color-primary);
         display: none;
@@ -19,48 +25,42 @@
         text-transform: lowercase !important; 
     }
     ul, .main-nav{
-        margin-left: -2rem;
+        margin: 0 auto;
     }
     .main-nav li {
         display: inline-block;
-        margin-left: 30px;
-        font-size: 80%;
+        font-size: 100%;
     }
     ion-icon {
         display: none !important;
     }
     /*---delivery.css ------------------------------------ */
     .container-delivery {
-        justify-content: flex-start;
+        align-items: center;
     }
-   .delivery {
+    .delivery {
         justify-content: center;
-        max-width: 70%; 
+        text-align: center;
+        margin-bottom: 2rem;
     }
     .block_img {
         margin: auto 0; 
     }
-  
     .block_link {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         margin: 2rem 0 0 0;
     }
-    .text_delivery {
-        margin: 3rem 0 0 0.2rem;
-        padding-right: 1rem;
-        
-    }
-    .link_delivery{
-        margin-left: 0.2rem;
-    }
     .line2_delivery {
-        font-size: 120%;
+        font-size: 180%;
     }
     .line1_delivery {
-        width: 180px;
-        font-size: 160%;
+        width: 300px;
+        font-size: 220%;
+    }
+    img, .link_delivery {
+        width: 100px;
     }   
     /*---location.css ------------------------------------ */
     .embed {
@@ -72,18 +72,37 @@
     }
    /* chat bot ------------------------------------ */
    .chat_on{
-    width: 5rem;
-    height: 5rem;
-    bottom: 12rem;
-    padding: 1rem;
-    left: 15rem;
+        width: 4rem;
+        height: 4rem;
+        bottom: 12rem;
+        padding: 1rem;
+        margin: 0 auto;
+        margin-right: 3rem;
+        text-align: center;
     }  
     .chat_on_icon{
-        font-size: 2rem;
+        font-size: 1rem;
     }
-    /* depoimentos     ------------------------------------ */
+    /* depoimentos ------------------------------------ */
     .slider-dp {
         height: 300px !important;
+    }
+     /* cardapios ------------------------------------ */
+     section#cardapios {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    details.dish-menu-details {
+        width: 90%;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        background-color: var(--color-background);
     }
 }
 

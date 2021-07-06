@@ -11,15 +11,14 @@
   justify-content: space-between;
 }
 .row {
-    max-width: 1000px; /*Define o tamanho m�ximo da linha*/
-    margin: 0 auto; /*Define que o container vai ficar centralizado*/
-    /*margin: 0 auto; maneira alternativa para a linha de cima*/
+    max-width: 1000px;
+    margin: 0 auto;
 }
 .main-nav {
     float: left;
     display: none;
-    list-style: none; /*Se livra dos bullets - bolinhas pretas - marcadores*/
-    margin-top: 10px; /*colocar um espa�amento acima da lista para baixar ela*/
+    list-style: none;
+    margin-top: 10px;
 }
 .main-nav li {
     display: block;
