@@ -1,19 +1,22 @@
+@import url(colors.css);
+
 footer {
-  width: 100vw;
-  display: contents;
-  flex-direction: column;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   color: var(--color-primary);
   background-color: var(--color-background);
+  margin-top: 5rem;
 }
 
-footer > div {
+footer div {
   margin: 15px;
   text-align: center;
 }
 
-footer p {
+footer p.contact {
   margin-bottom: 10px;
 }
 
@@ -25,8 +28,9 @@ footer p {
   color: var(--color-primary);
   text-decoration: none;
   display: block;
-  width: 50px;
-  height: 40px;
+  width: 60px;
+  height: 50px;
+  margin: 5px;
 }
 
 .social li {
@@ -35,32 +39,40 @@ display: inline-block;
 transition: ease .3s;
 }
 
-.social:hover > li {
-  opacity: 0.5;
-}
-
-.social:hover > li:hover {
-  opacity: 1;
-}
-
 .social i.fa,
 .social i.fab {
-  font-size: 2rem;
-  padding: 5px;
-}
-
-.footer-form {
-  font-size: 16px;
+  font-size: 4rem;
+ // padding: 5px;
 }
 
 #footer-email {
   border-radius: 10px;
   padding: 8px;
+  background-color: var(--color-secondary);
 }
 
 #footer-signup {
   background-color: var(--color-primary);
-  color: #000;
+  color: var(--color-text-dark);
   border-radius: 10px;
   padding: 8px;
+}
+
+@media only screen and (min-width: 670px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .social:hover > li {
+    opacity: 0.5;
+  }
+  
+  .social:hover > li:hover {
+    opacity: 1;
+  }
 }

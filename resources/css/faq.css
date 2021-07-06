@@ -1,5 +1,7 @@
+@import url(colors.css);
+
 section#faq {
-    width: 90vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,30 +13,66 @@ section#faq {
 }
 
 details.faq-details {
-    width: 80vw;
-    margin-bottom: 5px;
+    width: 90%;
     background-color: var(--color-primary);
-    color: var(--color-background);
+    color: var(--color-text-dark);
     border-radius: 10px;
     display: flex;
     justify-content: center;
     text-align: left;
-
 }
-
-summary.faq-summary {
+details summary.faq-summary {
     width: 100%;
-    font-weight: bold;
-    background-color: transparent;
-    color: var(--color-background);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: var(--color-primary);
+    color: var(--color-text-dark);
     padding: 10px;
+    list-style: none;
 }
 
-summary.faq-summary::-webkit-details-marker {
-	display: none;
+details summary.faq-summary::-webkit-details-marker { 
+    display: none;
 }
+
+details[open] summary.faq-summary i.fa-chevron-down{
+    transform: rotate(-180deg);
+    transition: 0.5s transform ease;
+}
+
+details summary.faq-summary i.fa-chevron-down{
+    transform: rotate(0deg);
+    transition: 0.5s transform ease;
+}
+
 
 div.faq-content {
     padding: 12px;
+}
 
+.faq-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.faq-form textarea {
+    width: 100%;
+    height: 50px;
+}
+
+.faq-form input[email] {
+    width: 100%;
+}
+
+.faq-form button[type=submit] {
+    background-color: var(--color--White-pearly);
+    color: var(--color-text-dark);
+    border: solid 1px var(--color-background);
+    border-radius: 15px;
+    padding: 5px 8px;
+    margin: 5px;
 }

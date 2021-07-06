@@ -3,8 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-           <!-- Importação arquivos CSS -->
-           <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <!-- Importação dos icones -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+    <!-- Importação da fonte Lato -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&amp;subset=latin-ext" rel="stylesheet">     
+    <!-- Importação da fonte Viaoda -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
+    <!-- Importação arquivos CSS -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
     <link rel="stylesheet" type="text/css" href="vendors/slick-1.8.1/slick/slick.css"/>
@@ -19,15 +27,6 @@
     <link rel="stylesheet" type="text/css" href="resources/css/menu.css">
     <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
-       <!-- Importação dos icones -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
-      <!-- Importação da fonte Lato -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&amp;subset=latin-ext" rel="stylesheet">     
-        <!-- Importação da fonte Viaoda -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
-
     <title>Porto Paris</title>
 </head>
 <body>
@@ -44,6 +43,12 @@
         <nav>
             <div class="row">
                 <ul class="main-nav">
+                    <li>
+                        <a href="#location">
+                            <ion-icon name='menu' class="fas fa-motorcycle"></ion-icon>
+                            &nbsp;Como chegar?
+                        </a>
+                    </li>
                     <li>
                         <a href="#location">
                             <ion-icon name='menu' class="fas fa-motorcycle"></ion-icon>
@@ -75,7 +80,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#trabalhe">
+                        <a href="work.html">
                             <ion-icon name='menu' class="fas fa-users"></ion-icon>
                             &nbsp;Trabalhe Conosco
                         </a>
@@ -87,16 +92,15 @@
                         </a>
                     </li>
                 </ul>
-           
             </div>
         </nav>
     </header>
-    <hr style="max-width:100%;height:2px;"/>
+    <hr style="max-width:100%;height:2px;margin-top:-0.5rem;"/> 
     <section class="container-delivery">
         <div id="delivery" class="delivery">
             <div class="text_delivery">
-                <p class="line1_delivery">Porto Paris</p>
-                <p class="line2_delivery">sem sair de casa?</p>
+                <h2 class="line1_delivery">Porto Paris</h2>
+                <h2 class="line2_delivery">sem sair de casa?</h2>
             </div>
             <div class="block_link">
                 <a target="blanck" href="https://www.ifood.com.br/delivery/porto-alegre-rs/porto-paris-bistro-porto-alegre-praia-de-belas/70c19330-95d4-46a8-b6a9-9aa01f4e7873">
@@ -111,8 +115,6 @@
             </div>
         </div>
     </section>
-    <hr style="max-width:100%;height:2px;"/>
-
     <section id="cardapios" class="dish-menu">
         <h2 id="dish-menu-title">Cardápios</h2>
         <details class="dish-menu-details">
@@ -125,37 +127,49 @@
                     <i class="fas fa-chevron-down"></i>
                 </div>
             </summary>
-            <div class="dish-menu-content">
-                <div class="dcm-picture" />
-                <div class="dcm-title">
-                    Nome do Prato
-                </div>
-                <div class="dcm-description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio enim aspernatur asperiores minima rem quaerat voluptatem qui nostrum mollitia et, commodi natus iure, at reiciendis dolor sint. Cupiditate, sunt dolor!
-                </div>
+            <div id="dm-hamburger" class="dish-menu-content">
             </div>
         </details>
         <details class="dish-menu-details">
             <summary class="dish-menu-summary">
-                Crepes
+                <div>
+                    <i class="fas fa-pizza-slice"></i>
+                    Crepes
+                </div>
+                <div>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
             </summary>
-            <div>
+            <div id="dm-crepes" class="dish-menu-content">
                 
             </div>
         </details>
         <details class="dish-menu-details">
             <summary class="dish-menu-summary">
-                Ala Minutas
+                <div>
+                    <i class="fas fa-concierge-bell"></i>
+                    Ala Minutas
+                </div>
+                <div>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
             </summary>
-            <div>
+            <div id="dm-alaminutas" class="dish-menu-content">
                 
             </div>
         </details>
         <details class="dish-menu-details">
             <summary class="dish-menu-summary">
-                Bebidas
+                <div>
+                    <i class="fas fa-wine-glass-alt"></i>
+                    Bebidas
+                </div>
+                <div>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
             </summary>
-            <div>
+            <div id="dm-bebidas" class="dish-menu-content">
+                
             </div>
         </details>
     </section>
@@ -163,16 +177,17 @@
     <section  id="location" class="location-container">
         <div class="location">
             <div class="title">
-                <h1 class="title-h1">Como Chegar </h1>
+                <h2 class="title-h1">Como Chegar </h2>
             </div>
             <div class="embed">
                 <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.7519962743063!2d-51.23256628496436!3d-30.043972081882497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951978fcfe0798c5%3A0xa7f8c015dc10c3a1!2sPorto%20Paris!5e0!3m2!1spt-BR!2sbr!4v1574563145720!5m2!1spt-BR!2sbr"></iframe>
             </div>
             <article class="text">
-                <p class="text-location">R. Dr Vicente de Paula Dutra- 250 - Praia de Belas</p>
-                <p class="text-location">Porto Alegre - RS</p>
+                <p class="text-location">R. Dr Vicente de Paula Dutra, 250</p>
+                <p class="text-location">Bairro Praia de Belas</p>
+                <p class="text-location">Porto Alegre/RS</p>
                 <p class="text-location">CEP: 90110-200</p>
-                <p class="text-location"> Telefone: (51) 3737-3807</p>
+                <p class="text-location">Telefone: (51) 3737-3807</p>
             </article>
         </div>
     </section>
@@ -217,59 +232,76 @@
 
     <section id="faq">
         <h2 id="faq-title">FAQ</h2>
-        <div>
-            <details class="faq-details">
-                <summary class="faq-summary">
-                    Pergunta 1
-                </summary>
-                <div class="faq-content">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, maiores pariatur. Sit delectus quam est ut? Consequuntur, fugiat quas odit delectus animi doloremque rerum debitis, nam nihil praesentium autem repellat?
+        <details class="faq-details">
+            <summary class="faq-summary">
+                <div>
+                    Minha pergunta numero um?
                 </div>
-            </details>
-            <details class="faq-details">
-                <summary class="faq-summary">
-                    Pergunta 2
-                </summary>
-                <div class="faq-content">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, maiores pariatur. Sit delectus quam est ut? Consequuntur, fugiat quas odit delectus animi doloremque rerum debitis, nam nihil praesentium autem repellat?
+                <div>
+                    <i class="fas fa-chevron-down"></i>
                 </div>
-            </details>
-            <details class="faq-details">
-                <summary class="faq-summary">
-                    Pergunta 3
-                </summary>
-                <div class="faq-content">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, maiores pariatur. Sit delectus quam est ut? Consequuntur, fugiat quas odit delectus animi doloremque rerum debitis, nam nihil praesentium autem repellat?
+            </summary>
+            <div class="faq-content">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, maiores pariatur. Sit delectus quam est ut? Consequuntur, fugiat quas odit delectus animi doloremque rerum debitis, nam nihil praesentium autem repellat?
+            </div>
+        </details>
+        <details class="faq-details">
+            <summary class="faq-summary">
+                <div>
+                    Minha pergunta numero dois?
                 </div>
-            </details>
-            <details class="faq-details">
-                <summary class="faq-summary">
-                    Envie sua Pergunta
-                </summary>
-                <div class="faq-content">
-                    <form>
-                        <input id="faq-email" type="email" placeholder="Insira seu email">
-                        <textarea cols="40" rows="5" placeholder="Insira sua dúvida aqui"></textarea>
-                        <button id="faq-send" type="submit">Enviar</button>
-                    </form>
+                <div>
+                    <i class="fas fa-chevron-down"></i>
                 </div>
-            </details>
-        </div>
-
+            </summary>
+            <div class="faq-content">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, maiores pariatur. Sit delectus quam est ut? Consequuntur, fugiat quas odit delectus animi doloremque rerum debitis, nam nihil praesentium autem repellat?
+            </div>
+        </details>
+        <details class="faq-details">
+            <summary class="faq-summary">
+                <div>
+                    Minha pergunta numero tres?
+                </div>
+                <div>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </summary>
+            <div class="faq-content">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, maiores pariatur. Sit delectus quam est ut? Consequuntur, fugiat quas odit delectus animi doloremque rerum debitis, nam nihil praesentium autem repellat?
+            </div>
+        </details>
+        <details class="faq-details">
+            <summary class="faq-summary">
+                <div>
+                    Envie sua dúvida
+                </div>
+                <div>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </summary>
+            <div class="faq-content">
+                <form class="faq-form">
+                    <input id="faq-email" type="email" placeholder="Insira seu email">
+                    <textarea placeholder="Insira sua dúvida aqui"></textarea>
+                    <button id="faq-send" type="submit">Enviar</button>
+                </form>
+            </div>
+        </details>
     </section>
 
     <footer class="footer">
-        <div class="contact">
-            <p>Contato</p>
-            <span><i class="fa fa-phone" aria-hidden="true"></i>  (51) 99999-9999</span>
-        </div>
         <div class="footer-social">
+            <div class="contact">
+                <p>Contato</p>
+                <p><i class="fa fa-phone" aria-hidden="true"></i>  (51) 3737 3807</p>
+            </div>
             <ul class="social">
                 <li><a href="https://www.facebook.com/PortoParisBistroPoa/?ref=br_rs" target="_blank"><i class="fab fa-facebook-square" aria-hidden="true"></i></a></li>
                 <li><a href="https://www.instagram.com/portoparisbistropoa/?igshid=1jyn9545y796w&fbclid=IwAR1htj9MzmZV_7YYXZmupxucHLeIRvQGxpvMxuBPyZI2Dtv4byxHKNIhSfM" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
                 <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
                 <li><a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
-              </ul>
+            </ul>
         </div>
         <div id="subscribe">
             <form action="#">
@@ -331,3 +363,4 @@
 <!-- IMPORTAÇÃO DO NOSSO ARQUIVO DE JAVASCRIPT -->
 <script src="resources/js/menu.js"></script>
 <script src="resources/js/chatbot.js"></script>
+<script src="resources/js/cardapio.js"></script>

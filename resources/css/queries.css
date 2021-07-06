@@ -35,7 +35,7 @@
     .container-delivery {
         align-items: center;
     }
-   .delivery {
+    .delivery {
         justify-content: center;
         text-align: center;
         margin-bottom: 2rem;
@@ -48,13 +48,6 @@
         flex-direction: row;
         justify-content: space-evenly;
         margin: 2rem 0 0 0;
-    }
-    .text_delivery {
-      
-        
-    }
-    .link_delivery{
-      
     }
     .line2_delivery {
         font-size: 180%;
@@ -73,14 +66,16 @@
     }
    /* chat bot ------------------------------------ */
    .chat_on{
-    width: 5rem;
-    height: 5rem;
-    bottom: 12rem;
-    padding: 1rem;
-    left: 15rem;
+        width: 4rem;
+        height: 4rem;
+        bottom: 12rem;
+        padding: 1rem;
+        margin: 0 auto;
+        margin-top: -3rem;
+        text-align: center;
     }  
     .chat_on_icon{
-        font-size: 2rem;
+        font-size: 1rem;
     }
     /* depoimentos ------------------------------------ */
     .slider-dp {

@@ -1,0 +1,159 @@
+@import url(colors.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Arial', sans-serif; 
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-text-light);
+    font-size: 1.2rem;
+    width: 100vw;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+background-color: var(--color-background);
+color: var(--color-primary);
+padding: 10px 0;
+border-bottom: solid 1px var(--color-primary);
+}
+
+.logo {
+    font-family: 'Viaoda Libre';
+    font-size: 2rem;
+    padding: 5px 15px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+.voltar {
+    text-decoration: none;
+    font-size: 2rem ;
+    border: none;
+    padding: 0 15px;
+}
+
+main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8rem;
+    padding: 15px;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 20px;
+}
+
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 20px 0;
+    border-radius: 8px;
+    border: solid 1px var(--color-primary);
+}
+
+fieldset legend {
+    font-size: 1.2rem;
+    font-family: 'Viaoda Libre';
+    font-weight: 100;
+}
+
+label {
+    margin-bottom: 3px;
+}
+
+select,
+textarea,
+input {
+    background-color: var(--color--White-pearly);
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    resize: vertical;
+    outline: none;
+}
+
+textarea {
+    transition: width 0.4s ease-in-out;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+textarea:focus {
+    height: 250px;
+}
+
+input[type=button], 
+input[type=submit], 
+input[type=reset] {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.upload label{
+    font-size: 1.2rem;
+    font-family: 'Viaoda Libre';
+    font-weight: 100;
+    margin: 0 15px;
+}
+
+input[type=file] {
+    background-color: transparent;
+    width: 100%;
+    padding: 0;
+}
+
+input[type=file]::-webkit-file-upload-button {
+    background-color: transparent;
+    color: var(--color-secondary);
+    border: solid 1px var(--color-primary);
+    border-radius: 15px;
+    padding: 5px 8px;
+    margin: 5px;
+}
+
+.check label {
+    margin: 5px;
+}
+
+input[type=checkbox] {
+    width: 18px;
+    height: 18px;
+}
+
+.btn-box {
+    width: 100%;
+}
+
+.btn-box input {
+    float: right;
+    margin: 10px;
+}
