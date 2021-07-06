@@ -8,11 +8,6 @@
     color: var(--color_2);
     font: var(--font_2);
 }
-.card-text {
-  background-color: var(--color-primary);
-  color: var(--color-background);
-  margin-bottom: 1em;
-}
 .card-text-1 {
   background-color: var(--color-background);
   color: var(--color-primary);
