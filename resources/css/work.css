@@ -23,32 +23,31 @@ body {
 }
 
 .header {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-background-color: var(--color-background);
-color: var(--color-primary);
-padding: 10px 0;
-border-bottom: solid 1px var(--color-primary);
-}
-
-.logo {
+    display: flex;
+    justify-content:space-between;
     font-family: 'Viaoda Libre';
-    font-size: 2rem;
-    padding: 5px 15px;
 }
-
-a {
+.logo {
+    display: flex;
+    align-items: center;
     text-decoration: none;
-    color: inherit
+    margin: 1rem;
+    font-weight: 100; 
+    font-size: 200%;
 }
-
-.voltar {
+.img-banner {
+    display: block;
+    margin: 0 auto;
+    width:60%;
+    margin-bottom: 1rem;
+    object-fit: contain;
+}
+.voltar a {
+    color: var(--color-primary);
     text-decoration: none;
-    font-size: 2rem ;
-    border: none;
-    padding: 0 15px;
+    margin: 3rem;
+    padding-right: 1rem;
+    font-size: 110% ;
 }
 
 main {
