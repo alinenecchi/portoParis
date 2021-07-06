@@ -8,7 +8,7 @@ footer {
   align-items: center;
   color: var(--color-primary);
   background-color: var(--color-background);
-  margin-top: 5rem;
+  margin-top: 6rem;
 }
 
 footer div {
@@ -62,7 +62,7 @@ transition: ease .3s;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: center;
   }
 }
 
