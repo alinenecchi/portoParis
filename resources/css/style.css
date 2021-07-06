@@ -17,7 +17,11 @@ body {
     font-family: 'Arial', sans-serif; 
     max-width: 1000px;
     margin: 0 auto;
-    padding:  0.1rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/Banner/bannerr.jpg'); /*explore outras cores e transpar�ncias*/
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
 }
 hr {
     background: var(--color-primary);
