@@ -14,6 +14,7 @@ section#cardapios {
 
 details.dish-menu-details {
     width: 90%;
+    max-width: 750px;
     margin-bottom: 10px;
     border-radius: 10px;
     display: flex;
@@ -21,7 +22,7 @@ details.dish-menu-details {
     background-color: var(--color-background);
 }
 
-details[open]{
+details.dish-menu-details[open]{
     border-radius: 10px;
     border: 1px solid var(--color-primary);
     padding-bottom: 15px;
@@ -70,7 +71,6 @@ details div.dish-menu-content {
 
 details div.dish-menu-content div.dmc-picture {
     display: flex;
-    max-width: 540px;
     margin-top: 25px;
 }
 
