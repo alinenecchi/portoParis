@@ -20,6 +20,7 @@ details.faq-details {
     display: flex;
     justify-content: center;
     text-align: left;
+    margin: 0.1rem;
 }
 details summary.faq-summary {
     width: 100%;
@@ -47,7 +48,6 @@ details summary.faq-summary i.fa-chevron-down{
     transform: rotate(0deg);
     transition: 0.5s transform ease;
 }
-
 
 div.faq-content {
     padding: 12px;

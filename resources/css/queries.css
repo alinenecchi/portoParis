@@ -4,7 +4,10 @@
         margin-right: 1rem;
     }
     .row {
-        margin: 0 auto 0 auto;   
+        margin: 0 auto 0 auto; 
+    }
+    ul, .main-nav {
+        margin: 0 auto;
     }
     hr {
         background: var(--color-primary);
@@ -26,7 +29,7 @@
     }
     .main-nav li {
         display: inline-block;
-        font-size: 80%;
+        font-size: 100%;
     }
     ion-icon {
         display: none !important;
@@ -55,6 +58,9 @@
     .line1_delivery {
         width: 300px;
         font-size: 220%;
+    }
+    img, .link_delivery {
+        width: 100px;
     }   
     /*---location.css ------------------------------------ */
     .embed {
@@ -71,7 +77,7 @@
         bottom: 12rem;
         padding: 1rem;
         margin: 0 auto;
-        margin-top: -3rem;
+        margin-right: 3rem;
         text-align: center;
     }  
     .chat_on_icon{
