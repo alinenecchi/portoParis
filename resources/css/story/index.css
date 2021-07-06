@@ -12,8 +12,12 @@ html {
     text-rendering: optimizeLegibility; 
 }
 body {
-    max-width: 1200px;
+    background-color: var(--color-background); /*Define a cor do fundo*/
+    color: var(--color-primary);
+    font-family: 'Arial', sans-serif; 
+    max-width: 1000px;
     margin: 0 auto;
+    padding: 1rem;
 }
   
 

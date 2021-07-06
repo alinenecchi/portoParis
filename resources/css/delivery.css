@@ -1,16 +1,21 @@
-@import url(colors.css);
-
 .container-delivery {
     display: flex;
     flex-direction: row;
     position: relative;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    margin-right: 1rem;
+    margin-right: 5rem;
 }
 .delivery {
+    display: flex;
+    flex-direction: row;
+}
+p, .delivery {
+    margin: 0;
+    padding: 0;
+}
+
+.block_link {
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
@@ -53,4 +58,5 @@
     width: 150px;
     font-size: 140%;
 }
+
 

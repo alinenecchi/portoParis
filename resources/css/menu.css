@@ -11,7 +11,7 @@
   justify-content: space-between;
 }
 .row {
-    max-width: 1200px; /*Define o tamanho m�ximo da linha*/
+    max-width: 1000px; /*Define o tamanho m�ximo da linha*/
     margin: 0 auto; /*Define que o container vai ficar centralizado*/
     /*margin: 0 auto; maneira alternativa para a linha de cima*/
 }

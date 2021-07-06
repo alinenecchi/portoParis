@@ -1,29 +1,59 @@
 @media (min-width: 600px) {
+    /*---menu.css------------------------------------ */
     .header {
         margin-right: 1rem;
     }
+    hr {
+        background: var(--color-primary);
+        display: none;
+    }
+    #checkbox-menu{
+        display: none;
+      }
+    label{
+        display: none;
+    }
+    .main-nav {
+        display: inline !important;
+        margin: 0 auto;
+        text-transform: lowercase !important; 
+    }
+    ul, .main-nav{
+        margin-left: -2rem;
+    }
+    .main-nav li {
+        display: inline-block;
+        margin-left: 30px;
+        font-size: 80%;
+    }
+    ion-icon {
+        display: none !important;
+    }
+    /*---delivery.css ------------------------------------ */
     .container-delivery {
         justify-content: flex-start;
-        max-width: 1200px; 
     }
    .delivery {
-        justify-content: space-evenly;
-        
+        justify-content: center;
+        max-width: 70%; 
     }
+    .block_img {
+        margin: auto 0; 
+    }
+  
     .block_link {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-        margin-top:2rem;
-        margin-left: 1rem; 
+        justify-content: space-evenly;
+        margin: 2rem 0 0 0;
     }
     .text_delivery {
-        margin-left: 2rem;
-        padding-right: 5rem;
+        margin: 3rem 0 0 0.2rem;
+        padding-right: 1rem;
+        
     }
     .link_delivery{
-        margin-left: 0.5rem;
-        min-width:13vh ;
+        margin-left: 0.2rem;
     }
     .line2_delivery {
         font-size: 120%;
@@ -32,7 +62,29 @@
         width: 180px;
         font-size: 160%;
     }   
-  
+    /*---location.css ------------------------------------ */
+    .embed {
+        width: 50rem;
+    }
+    iframe {
+        width: 40rem;
+        height: 20rem;
+    }
+   /* chat bot ------------------------------------ */
+   .chat_on{
+    width: 5rem;
+    height: 5rem;
+    bottom: 12rem;
+    padding: 1rem;
+    left: 15rem;
+    }  
+    .chat_on_icon{
+        font-size: 2rem;
+    }
+    /* depoimentos     ------------------------------------ */
+    .slider-dp {
+        height: 300px !important;
+    }
 }
 
 
